@@ -1202,7 +1202,7 @@ function FGetRandomResolvers(){
 function FStartResolver(){
 
  # Load primary
- if [ $cDNSOrder = "primary"  ]; then
+ if [[ $cDNSOrder = "primary"  ]]; then
 
     # Quit previous dnscrypt-proxy instance
     FGetProcessTrace $cPrimaryIP $cPrimaryPort "kill"
@@ -1232,7 +1232,7 @@ function FStartResolver(){
 
 
  # Load secondary
- if [ "$cDNSOrder" = "secondary"  ]; then
+ if [[ "$cDNSOrder" = "secondary"  ]]; then
 
     # Quit previous dnscrypt-proxy instance
     FGetProcessTrace $cSecondaryIP $cSecondaryPort "kill"
