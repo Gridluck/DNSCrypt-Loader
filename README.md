@@ -38,7 +38,7 @@ Please refer to [https://github.com/jedisct1/minisign](https://github.com/jedisc
 **Commands dependant**  
 `whiptail` (Pre-installed in most Linux distros)  
 `gawk` GNU awk, a pattern scanning and processing language (Pre-installed in most Linux distros)  
-
+`curl` (Pre-installed in most Linux distros)
 
 
 ## Compatibility
